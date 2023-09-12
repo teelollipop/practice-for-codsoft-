@@ -27,7 +27,7 @@ rules = {
     r'how are you': 'I am just a chatbot, but thanks for asking!',
     r'what is your name': 'My name is ChatTAI, an AI system created by Treasure Abaa',
     r'what can you do': 'I can provide text based responses based on user inputs',
-    r'help|?': 'I can provide basic information. Try asking a question.', }
+    r'help|?': 'I can provide basic information. Try asking a question.', } 
 
 #Create main loop for interacting with the chatbot 
 #This loop takes user input and provide responses until the user decides to exit
