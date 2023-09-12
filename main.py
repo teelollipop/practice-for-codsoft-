@@ -1,5 +1,7 @@
-#Install the regex library for pattern recognition 
+#Install the regex library for pattern recognition using pip install regex
+
 #Create a dictionary of user inputs and pattern response pairs
+
 rules = {
     r'hello|hi|hey': 'Hello! How can I assist you?',
     r'bye|goodbye': 'Goodbye! Have an amazing day!',
@@ -10,7 +12,9 @@ rules = {
 }
 
 #Create chatbot response function
+
 #Import the regular expresions module
+
 import re
 
 def chatbot_response(user_input):
@@ -20,6 +24,7 @@ def chatbot_response(user_input):
     return "I'm sorry, I didn't understand that."
 
 #Create a loop to take user input and provide responses until the user decides to exit
+
 while True:
     user_input = input("You: ")
     if user_input.lower() == 'exit':

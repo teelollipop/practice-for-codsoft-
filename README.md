@@ -1,5 +1,6 @@
 # CODSOFT
-AI internship with CodSoft
+Artificial Intelligence internship with CodSoft
+Python programming language
 Task 1: Chatbot with rule-based responses
-Bulding a chatbot that responds to user inputs based on pre-defined rules
-Using if-else statements or pattern matching techniques to identify user queries and provide appropriate responses
+Task 2: Recommendation System
+Task 3: Face Detection and Recognition 
